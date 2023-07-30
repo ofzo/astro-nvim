@@ -16,9 +16,9 @@ return {
               base = "#ffffff",
             }
           },
-          custom_highlights = function (colors)
+          custom_highlights = function ()
             return {
-              CursorLineNr = "#a21caf",
+              CursorLineNr = { fg = "#a21caf", style = { "bold" } },
               IndentBlanklineContextChar = { fg ="#cbd5e1" },
               ["@field"] = { fg = "#e11d48"  },
               ["@property"] = { fg = "#c2410c" },
