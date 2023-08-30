@@ -16,8 +16,10 @@ return {
               base = "#ffffff",
             }
           },
+          transparent_background = true,
           custom_highlights = function ()
             return {
+              NormalFloat = { bg = "white" },
               CursorLineNr = { fg = "#a21caf", style = { "bold" } },
               IndentBlanklineContextChar = { fg ="#cbd5e1" },
               ["@field"] = { fg = "#e11d48"  },
