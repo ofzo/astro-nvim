@@ -1,5 +1,4 @@
 -- ### AstroNvim C Extensions
-
 local ffi = require "ffi"
 
 -- Custom C extension to get direct fold information from Neovim

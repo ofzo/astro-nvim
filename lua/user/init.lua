@@ -52,5 +52,6 @@ return {
                 }
             }
         }, {"saecki/crates.nvim", event = {"BufRead Cargo.toml"}, config = true}
+        -- {"simrat39/rust-tools.nvim", event = "VeryLazy"}
     }
 }
