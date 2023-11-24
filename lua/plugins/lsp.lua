@@ -48,6 +48,7 @@ return {
                     opts.handlers[1] = function(server)
                         require("astronvim.utils.lsp").setup(server)
                     end
+                    opts.automatic_installation = true
                 end,
                 config = require "plugins.configs.mason-lspconfig"
             }

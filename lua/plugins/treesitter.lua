@@ -15,7 +15,11 @@ return {
         return {
             autotag = {enable = true},
             context_commentstring = {enable = true, enable_autocmd = false},
-            ensure_installed = {"markdown"},
+            ensure_installed = {
+                "markdown", "rust", "tsx", "javascript", "css", "cpp", "json",
+                "json5", "go", "html", "git_config", "git_rebase", "gitignore",
+                "make", "gomod", "gosum"
+            },
             highlight = {
                 enable = true,
                 disable = function(_, bufnr)

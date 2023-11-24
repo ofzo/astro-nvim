@@ -62,7 +62,7 @@ return {
         opts = {
             icons = {
                 group = vim.g.icons_enabled and "" or "+",
-                separator = ""
+                separator = ""
             },
             disable = {filetypes = {"TelescopePrompt"}}
         },
